@@ -21,8 +21,7 @@ Una aplicación moderna y accesible desarrollada con **.NET MAUI** que utiliza i
 
 Este proyecto se centra en la eliminación de barreras mediante el uso de interfaces naturales:
 
-1.  **Voz (Text-to-Speech):** Utiliza la tecnología nativa del sistema para convertir texto escrito en audio hablado de forma instantánea.
-2.  **Gestos:** Interacción táctil optimizada mediante el uso de `TapGestureRecognizer` en elementos visuales no tradicionales.
+**Voz (Text-to-Speech):** Utiliza la tecnología nativa del sistema para convertir texto escrito en audio hablado de forma instantánea.
 
 ---
 
