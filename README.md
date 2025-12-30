@@ -21,15 +21,15 @@ Una aplicación moderna y accesible desarrollada con **.NET MAUI** que utiliza i
 
 Este proyecto se centra en la eliminación de barreras mediante el uso de interfaces naturales:
 
-1.  [cite_start]**Voz (Text-to-Speech):** Utiliza la tecnología nativa del sistema para convertir texto escrito en audio hablado de forma instantánea. [cite: 17]
-2.  [cite_start]**Gestos:** Interacción táctil optimizada mediante el uso de `TapGestureRecognizer` en elementos visuales no tradicionales. [cite: 24]
+1.  **Voz (Text-to-Speech):** Utiliza la tecnología nativa del sistema para convertir texto escrito en audio hablado de forma instantánea. [cite: 17]
+2.  **Gestos:** Interacción táctil optimizada mediante el uso de `TapGestureRecognizer` en elementos visuales no tradicionales. [cite: 24]
 
 ---
 
 ## 🛠️ Tecnologías Utilizadas
 
-* [cite_start]**Framework:** .NET MAUI (.NET 9/10) [cite: 6]
-* [cite_start]**Lenguaje:** C# [cite: 1]
+* **Framework:** .NET MAUI (.NET 9/10) [cite: 6]
+* **Lenguaje:** C# [cite: 1]
 * **Diseño:** XAML
 * **Patrón:** MVVM (Model-View-ViewModel)
 
