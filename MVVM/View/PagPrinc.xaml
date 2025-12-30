@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoInterfazNatural.MVVM.View.PagPrinc"
+             Title="PagPrinc">
+
+    <VerticalStackLayout Padding="30" Spacing="40" VerticalOptions="Center">
+
+        <Border StrokeShape="RoundRectangle 25" 
+                BackgroundColor="#2C3E50" 
+                Padding="20"
+                HeightRequest="220"
+                StrokeThickness="0">
+            <Border.Shadow>
+                <Shadow Brush="#000000" Offset="10,10" Opacity="0.15" Radius="15" />
+            </Border.Shadow>
+
+            <VerticalStackLayout VerticalOptions="Center" Spacing="10">
+                <Label Text="VocalApp" 
+                       TextColor="White" 
+                       FontSize="36" 
+                       FontAttributes="Bold" 
+                       HorizontalOptions="Center" />
+                <BoxView HeightRequest="2" WidthRequest="50" Color="#3498DB" HorizontalOptions="Center" />
+                <Label Text="Sintetizador de Voz Natural" 
+                       TextColor="#BDC3C7" 
+                       FontSize="16" 
+                       HorizontalOptions="Center" />
+            </VerticalStackLayout>
+        </Border>
+
+        <Button Text="ACCEDER AL DICTADO" 
+                Clicked="IrADictado"
+                BackgroundColor="#3498DB"
+                TextColor="White"
+                FontAttributes="Bold"
+                HeightRequest="65"
+                CornerRadius="30" />
+
+    </VerticalStackLayout>
+</ContentPage>
