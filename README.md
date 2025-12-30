@@ -1,68 +1,44 @@
-# VocalApp
-1. Descripción del Proyecto 
+# VocalApp 🗣️
 
-Este proyecto consiste en una aplicación desarrollada en .NET MAUI que facilita la comunicación mediante el uso de una interfaz natural de voz. La aplicación permite al usuario navegar entre dos pantallas: una de bienvenida y otra de dictado, donde el sistema traduce el texto introducido en voz alta de forma automática.
+![.NET MAUI](https://img.shields.io/badge/.NET%20MAUI-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
+Una aplicación moderna y accesible desarrollada con **.NET MAUI** que utiliza interfaces naturales para facilitar la comunicación mediante síntesis de voz. Este proyecto ha sido realizado para el **Tema 5: Interfaces Naturales**.
 
+---
 
+## ✨ Características Principales
 
+* **🎨 Interfaz Cuidada:** Diseño minimalista y moderno utilizando el control `Border`, sombras personalizadas y una paleta de colores coherente.
+* **🏗️ Arquitectura MVVM:** Implementación del patrón *Model-View-ViewModel* para una separación limpia entre la lógica y la vista.
+* **🚀 Navegación Fluida:** Sistema de navegación gestionado mediante `NavigationPage` para un flujo de usuario natural.
+* **🛠️ Controles Comunes:** Uso eficiente de `Entry`, `Button`, `Label`, `VerticalStackLayout` y `Border` para estructurar la experiencia.
 
-2. Tecnologías Usadas 
+---
 
+## 🧠 Interfaz Natural (Requisito Tema 5)
 
-Framework: .NET MAUI.
+Este proyecto se centra en la eliminación de barreras mediante el uso de interfaces naturales:
 
+1.  [cite_start]**Voz (Text-to-Speech):** Utiliza la tecnología nativa del sistema para convertir texto escrito en audio hablado de forma instantánea. [cite: 17]
+2.  [cite_start]**Gestos:** Interacción táctil optimizada mediante el uso de `TapGestureRecognizer` en elementos visuales no tradicionales. [cite: 24]
 
-Lenguajes: C# y XAML.
+---
 
+## 🛠️ Tecnologías Utilizadas
 
-Arquitectura: Patrón MVVM para separar la lógica de los datos de la interfaz visual.
+* [cite_start]**Framework:** .NET MAUI (.NET 9/10) [cite: 6]
+* [cite_start]**Lenguaje:** C# [cite: 1]
+* **Diseño:** XAML
+* **Patrón:** MVVM (Model-View-ViewModel)
 
+---
 
-Plataforma de pruebas: Windows.
+## 🚀 Instalación y Ejecución
 
+Sigue estos pasos para probar el proyecto localmente:
 
-3. Requisitos Técnicos Implementados 
-
-Para cumplir con los mínimos del proyecto, se han incluido los siguientes elementos:
-
-
-Navegación: Uso de NavigationPage para gestionar el flujo entre la página principal y la de dictado.
-
-
-
-Páginas: Dos páginas con un diseño cuidado utilizando controles modernos.
-
-
-Controles Comunes: Se han utilizado controles como Entry, Button, Label, VerticalStackLayout y Border para estructurar la interfaz.
-
-
-4. Interfaz Natural Implementada 
-
-
-
-El elemento obligatorio de interfaz natural elegido es:
-
-
-Síntesis de voz (Text-to-Speech): La aplicación utiliza la API nativa de MAUI para convertir el texto escrito por el usuario en audio hablado.
-
-
-
-5. Instrucciones para Probar la App 
-
-
-Para probar el funcionamiento del proyecto, sigue estos pasos:
-
-Compilar y ejecutar la aplicación en Windows.
-
-
-
-En la pantalla de inicio, pulsar el botón "ACCEDER AL DICTADO" para navegar a la siguiente página.
-
-
-
-Escribir cualquier frase en el cuadro de texto (Entry).
-
-
-
-Pulsar el botón "REPRODUCIR AHORA" para activar la síntesis de voz y escuchar el mensaje.
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/tu-usuario/VocalApp.git](https://github.com/tu-usuario/VocalApp.git)
