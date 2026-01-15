@@ -1,0 +1,643 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  commentId: T:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  id: VozViewModel
+  parent: ProyectoInterfazNatural.MVVM.ViewModel
+  children:
+  - ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.#ctor
+  - ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar
+  - ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged(System.String)
+  - ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.PropertyChanged
+  - ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje
+  langs:
+  - csharp
+  - vb
+  name: VozViewModel
+  nameWithType: VozViewModel
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  type: Class
+  source:
+    remote:
+      path: MVVM/ViewModel/VozViewModel.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: VozViewModel
+    path: ../MVVM/ViewModel/VozViewModel.cs
+    startLine: 6
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.ViewModel
+  syntax:
+    content: 'public class VozViewModel : INotifyPropertyChanged'
+    content.vb: Public Class VozViewModel Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje
+  commentId: P:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje
+  id: mensaje
+  parent: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  langs:
+  - csharp
+  - vb
+  name: mensaje
+  nameWithType: VozViewModel.mensaje
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje
+  type: Property
+  source:
+    remote:
+      path: MVVM/ViewModel/VozViewModel.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: mensaje
+    path: ../MVVM/ViewModel/VozViewModel.cs
+    startLine: 11
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.ViewModel
+  summary: Instancia del modelo Voz
+  example: []
+  syntax:
+    content: public Voz mensaje { get; set; }
+    parameters: []
+    return:
+      type: ProyectoInterfazNatural.MVVM.Model.Voz
+    content.vb: Public Property mensaje As Voz
+  overload: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje*
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar
+  commentId: P:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar
+  id: Hablar
+  parent: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  langs:
+  - csharp
+  - vb
+  name: Hablar
+  nameWithType: VozViewModel.Hablar
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar
+  type: Property
+  source:
+    remote:
+      path: MVVM/ViewModel/VozViewModel.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: Hablar
+    path: ../MVVM/ViewModel/VozViewModel.cs
+    startLine: 16
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.ViewModel
+  summary: Comando que ejecuta la interfaz natural de voz (Text-To-Speech)
+  example: []
+  syntax:
+    content: public ICommand Hablar { get; }
+    parameters: []
+    return:
+      type: System.Windows.Input.ICommand
+    content.vb: Public ReadOnly Property Hablar As ICommand
+  overload: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar*
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.#ctor
+  commentId: M:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.#ctor
+  id: '#ctor'
+  parent: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  langs:
+  - csharp
+  - vb
+  name: VozViewModel()
+  nameWithType: VozViewModel.VozViewModel()
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.VozViewModel()
+  type: Constructor
+  source:
+    remote:
+      path: MVVM/ViewModel/VozViewModel.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: .ctor
+    path: ../MVVM/ViewModel/VozViewModel.cs
+    startLine: 21
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.ViewModel
+  summary: Inicializa una nueva instancia de la clase VozViewModel
+  example: []
+  syntax:
+    content: public VozViewModel()
+    content.vb: Public Sub New()
+  overload: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.#ctor*
+  nameWithType.vb: VozViewModel.New()
+  fullName.vb: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.New()
+  name.vb: New()
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.PropertyChanged
+  commentId: E:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.PropertyChanged
+  id: PropertyChanged
+  parent: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  langs:
+  - csharp
+  - vb
+  name: PropertyChanged
+  nameWithType: VozViewModel.PropertyChanged
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.PropertyChanged
+  type: Event
+  source:
+    remote:
+      path: MVVM/ViewModel/VozViewModel.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: PropertyChanged
+    path: ../MVVM/ViewModel/VozViewModel.cs
+    startLine: 32
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.ViewModel
+  summary: Occurs when a property value changes.
+  example: []
+  syntax:
+    content: public event PropertyChangedEventHandler? PropertyChanged
+    return:
+      type: System.ComponentModel.PropertyChangedEventHandler
+    content.vb: Public Event PropertyChanged As PropertyChangedEventHandler
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged(System.String)
+  commentId: M:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged(System.String)
+  id: OnPropertyChanged(System.String)
+  parent: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+  langs:
+  - csharp
+  - vb
+  name: OnPropertyChanged(string)
+  nameWithType: VozViewModel.OnPropertyChanged(string)
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged(string)
+  type: Method
+  source:
+    remote:
+      path: MVVM/ViewModel/VozViewModel.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: OnPropertyChanged
+    path: ../MVVM/ViewModel/VozViewModel.cs
+    startLine: 38
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.ViewModel
+  summary: Notifica a la vista cuando una propiedad ha cambiado
+  example: []
+  syntax:
+    content: public void OnPropertyChanged(string nombre)
+    parameters:
+    - id: nombre
+      type: System.String
+      description: ''
+    content.vb: Public Sub OnPropertyChanged(nombre As String)
+  overload: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged*
+  nameWithType.vb: VozViewModel.OnPropertyChanged(String)
+  fullName.vb: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+references:
+- uid: ProyectoInterfazNatural.MVVM.ViewModel
+  commentId: N:ProyectoInterfazNatural.MVVM.ViewModel
+  href: ProyectoInterfazNatural.html
+  name: ProyectoInterfazNatural.MVVM.ViewModel
+  nameWithType: ProyectoInterfazNatural.MVVM.ViewModel
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel
+  spec.csharp:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.ViewModel
+    name: ViewModel
+    href: ProyectoInterfazNatural.MVVM.ViewModel.html
+  spec.vb:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.ViewModel
+    name: ViewModel
+    href: ProyectoInterfazNatural.MVVM.ViewModel.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje*
+  commentId: Overload:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje
+  href: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.html#ProyectoInterfazNatural_MVVM_ViewModel_VozViewModel_mensaje
+  name: mensaje
+  nameWithType: VozViewModel.mensaje
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.mensaje
+- uid: ProyectoInterfazNatural.MVVM.Model.Voz
+  commentId: T:ProyectoInterfazNatural.MVVM.Model.Voz
+  parent: ProyectoInterfazNatural.MVVM.Model
+  href: ProyectoInterfazNatural.MVVM.Model.Voz.html
+  name: Voz
+  nameWithType: Voz
+  fullName: ProyectoInterfazNatural.MVVM.Model.Voz
+- uid: ProyectoInterfazNatural.MVVM.Model
+  commentId: N:ProyectoInterfazNatural.MVVM.Model
+  href: ProyectoInterfazNatural.html
+  name: ProyectoInterfazNatural.MVVM.Model
+  nameWithType: ProyectoInterfazNatural.MVVM.Model
+  fullName: ProyectoInterfazNatural.MVVM.Model
+  spec.csharp:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.Model
+    name: Model
+    href: ProyectoInterfazNatural.MVVM.Model.html
+  spec.vb:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.Model
+    name: Model
+    href: ProyectoInterfazNatural.MVVM.Model.html
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar*
+  commentId: Overload:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar
+  href: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.html#ProyectoInterfazNatural_MVVM_ViewModel_VozViewModel_Hablar
+  name: Hablar
+  nameWithType: VozViewModel.Hablar
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.Hablar
+- uid: System.Windows.Input.ICommand
+  commentId: T:System.Windows.Input.ICommand
+  parent: System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.windows.input.icommand
+  name: ICommand
+  nameWithType: ICommand
+  fullName: System.Windows.Input.ICommand
+- uid: System.Windows.Input
+  commentId: N:System.Windows.Input
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Windows.Input
+  nameWithType: System.Windows.Input
+  fullName: System.Windows.Input
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Windows
+    name: Windows
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows
+  - name: .
+  - uid: System.Windows.Input
+    name: Input
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.windows.input
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.#ctor*
+  commentId: Overload:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.#ctor
+  href: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.html#ProyectoInterfazNatural_MVVM_ViewModel_VozViewModel__ctor
+  name: VozViewModel
+  nameWithType: VozViewModel.VozViewModel
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.VozViewModel
+  nameWithType.vb: VozViewModel.New
+  fullName.vb: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.New
+  name.vb: New
+- uid: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  commentId: E:System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+  parent: System.ComponentModel.INotifyPropertyChanged
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged.propertychanged
+  name: PropertyChanged
+  nameWithType: INotifyPropertyChanged.PropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged.PropertyChanged
+- uid: System.ComponentModel.PropertyChangedEventHandler
+  commentId: T:System.ComponentModel.PropertyChangedEventHandler
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.propertychangedeventhandler
+  name: PropertyChangedEventHandler
+  nameWithType: PropertyChangedEventHandler
+  fullName: System.ComponentModel.PropertyChangedEventHandler
+- uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged*
+  commentId: Overload:ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged
+  href: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.html#ProyectoInterfazNatural_MVVM_ViewModel_VozViewModel_OnPropertyChanged_System_String_
+  name: OnPropertyChanged
+  nameWithType: VozViewModel.OnPropertyChanged
+  fullName: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.OnPropertyChanged
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

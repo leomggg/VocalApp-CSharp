@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProyectoInterfazNatural.MVVM.View
+  commentId: N:ProyectoInterfazNatural.MVVM.View
+  id: ProyectoInterfazNatural.MVVM.View
+  children:
+  - ProyectoInterfazNatural.MVVM.View.PagPrinc
+  - ProyectoInterfazNatural.MVVM.View.SegPag
+  langs:
+  - csharp
+  - vb
+  name: ProyectoInterfazNatural.MVVM.View
+  nameWithType: ProyectoInterfazNatural.MVVM.View
+  fullName: ProyectoInterfazNatural.MVVM.View
+  type: Namespace
+  assemblies:
+  - ProyectoInterfazNatural
+references:
+- uid: ProyectoInterfazNatural.MVVM.View.PagPrinc
+  commentId: T:ProyectoInterfazNatural.MVVM.View.PagPrinc
+  href: ProyectoInterfazNatural.MVVM.View.PagPrinc.html
+  name: PagPrinc
+  nameWithType: PagPrinc
+  fullName: ProyectoInterfazNatural.MVVM.View.PagPrinc
+- uid: ProyectoInterfazNatural.MVVM.View.SegPag
+  commentId: T:ProyectoInterfazNatural.MVVM.View.SegPag
+  href: ProyectoInterfazNatural.MVVM.View.SegPag.html
+  name: SegPag
+  nameWithType: SegPag
+  fullName: ProyectoInterfazNatural.MVVM.View.SegPag

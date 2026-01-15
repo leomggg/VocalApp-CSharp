@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProyectoInterfazNatural
+  commentId: N:ProyectoInterfazNatural
+  id: ProyectoInterfazNatural
+  children:
+  - ProyectoInterfazNatural.App
+  - ProyectoInterfazNatural.AppShell
+  - ProyectoInterfazNatural.MainActivity
+  - ProyectoInterfazNatural.MainApplication
+  - ProyectoInterfazNatural.MainPage
+  - ProyectoInterfazNatural.MauiProgram
+  - ProyectoInterfazNatural.Resource
+  langs:
+  - csharp
+  - vb
+  name: ProyectoInterfazNatural
+  nameWithType: ProyectoInterfazNatural
+  fullName: ProyectoInterfazNatural
+  type: Namespace
+  assemblies:
+  - ProyectoInterfazNatural
+references:
+- uid: ProyectoInterfazNatural.App
+  commentId: T:ProyectoInterfazNatural.App
+  href: ProyectoInterfazNatural.App.html
+  name: App
+  nameWithType: App
+  fullName: ProyectoInterfazNatural.App
+- uid: ProyectoInterfazNatural.AppShell
+  commentId: T:ProyectoInterfazNatural.AppShell
+  href: ProyectoInterfazNatural.AppShell.html
+  name: AppShell
+  nameWithType: AppShell
+  fullName: ProyectoInterfazNatural.AppShell
+- uid: ProyectoInterfazNatural.MainPage
+  commentId: T:ProyectoInterfazNatural.MainPage
+  href: ProyectoInterfazNatural.MainPage.html
+  name: MainPage
+  nameWithType: MainPage
+  fullName: ProyectoInterfazNatural.MainPage
+- uid: ProyectoInterfazNatural.MauiProgram
+  commentId: T:ProyectoInterfazNatural.MauiProgram
+  href: ProyectoInterfazNatural.MauiProgram.html
+  name: MauiProgram
+  nameWithType: MauiProgram
+  fullName: ProyectoInterfazNatural.MauiProgram
+- uid: ProyectoInterfazNatural.MainActivity
+  commentId: T:ProyectoInterfazNatural.MainActivity
+  href: ProyectoInterfazNatural.MainActivity.html
+  name: MainActivity
+  nameWithType: MainActivity
+  fullName: ProyectoInterfazNatural.MainActivity
+- uid: ProyectoInterfazNatural.MainApplication
+  commentId: T:ProyectoInterfazNatural.MainApplication
+  href: ProyectoInterfazNatural.MainApplication.html
+  name: MainApplication
+  nameWithType: MainApplication
+  fullName: ProyectoInterfazNatural.MainApplication
+- uid: ProyectoInterfazNatural.Resource
+  commentId: T:ProyectoInterfazNatural.Resource
+  href: ProyectoInterfazNatural.Resource.html
+  name: Resource
+  nameWithType: Resource
+  fullName: ProyectoInterfazNatural.Resource

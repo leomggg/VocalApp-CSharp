@@ -1,0 +1,52 @@
+### YamlMime:TableOfContent
+items:
+- uid: ProyectoInterfazNatural
+  name: ProyectoInterfazNatural
+  type: Namespace
+  items:
+  - uid: ProyectoInterfazNatural.App
+    name: App
+    type: Class
+  - uid: ProyectoInterfazNatural.AppShell
+    name: AppShell
+    type: Class
+  - uid: ProyectoInterfazNatural.MainActivity
+    name: MainActivity
+    type: Class
+  - uid: ProyectoInterfazNatural.MainApplication
+    name: MainApplication
+    type: Class
+  - uid: ProyectoInterfazNatural.MainPage
+    name: MainPage
+    type: Class
+  - uid: ProyectoInterfazNatural.MauiProgram
+    name: MauiProgram
+    type: Class
+  - uid: ProyectoInterfazNatural.Resource
+    name: Resource
+    type: Class
+- uid: ProyectoInterfazNatural.MVVM.Model
+  name: ProyectoInterfazNatural.MVVM.Model
+  type: Namespace
+  items:
+  - uid: ProyectoInterfazNatural.MVVM.Model.Voz
+    name: Voz
+    type: Class
+- uid: ProyectoInterfazNatural.MVVM.View
+  name: ProyectoInterfazNatural.MVVM.View
+  type: Namespace
+  items:
+  - uid: ProyectoInterfazNatural.MVVM.View.PagPrinc
+    name: PagPrinc
+    type: Class
+  - uid: ProyectoInterfazNatural.MVVM.View.SegPag
+    name: SegPag
+    type: Class
+- uid: ProyectoInterfazNatural.MVVM.ViewModel
+  name: ProyectoInterfazNatural.MVVM.ViewModel
+  type: Namespace
+  items:
+  - uid: ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel
+    name: VozViewModel
+    type: Class
+memberLayout: SamePage

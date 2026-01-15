@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProyectoInterfazNatural.MVVM.Model.Voz
+  commentId: T:ProyectoInterfazNatural.MVVM.Model.Voz
+  id: Voz
+  parent: ProyectoInterfazNatural.MVVM.Model
+  children:
+  - ProyectoInterfazNatural.MVVM.Model.Voz.Contenido
+  langs:
+  - csharp
+  - vb
+  name: Voz
+  nameWithType: Voz
+  fullName: ProyectoInterfazNatural.MVVM.Model.Voz
+  type: Class
+  source:
+    remote:
+      path: MVVM/Model/Voz.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: Voz
+    path: ../MVVM/Model/Voz.cs
+    startLine: 5
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.Model
+  summary: Representa el modelo de datos para el texto a voz
+  example: []
+  syntax:
+    content: public class Voz
+    content.vb: Public Class Voz
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: ProyectoInterfazNatural.MVVM.Model.Voz.Contenido
+  commentId: P:ProyectoInterfazNatural.MVVM.Model.Voz.Contenido
+  id: Contenido
+  parent: ProyectoInterfazNatural.MVVM.Model.Voz
+  langs:
+  - csharp
+  - vb
+  name: Contenido
+  nameWithType: Voz.Contenido
+  fullName: ProyectoInterfazNatural.MVVM.Model.Voz.Contenido
+  type: Property
+  source:
+    remote:
+      path: MVVM/Model/Voz.cs
+      branch: main
+      repo: https://github.com/leomggg/VocalApp-CSharp.git
+    id: Contenido
+    path: ../MVVM/Model/Voz.cs
+    startLine: 10
+  assemblies:
+  - ProyectoInterfazNatural
+  namespace: ProyectoInterfazNatural.MVVM.Model
+  summary: Obtiene o establece el texto que será procesado
+  example: []
+  syntax:
+    content: public string Contenido { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Contenido As String
+  overload: ProyectoInterfazNatural.MVVM.Model.Voz.Contenido*
+references:
+- uid: ProyectoInterfazNatural.MVVM.Model
+  commentId: N:ProyectoInterfazNatural.MVVM.Model
+  href: ProyectoInterfazNatural.html
+  name: ProyectoInterfazNatural.MVVM.Model
+  nameWithType: ProyectoInterfazNatural.MVVM.Model
+  fullName: ProyectoInterfazNatural.MVVM.Model
+  spec.csharp:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.Model
+    name: Model
+    href: ProyectoInterfazNatural.MVVM.Model.html
+  spec.vb:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.Model
+    name: Model
+    href: ProyectoInterfazNatural.MVVM.Model.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: ProyectoInterfazNatural.MVVM.Model.Voz.Contenido*
+  commentId: Overload:ProyectoInterfazNatural.MVVM.Model.Voz.Contenido
+  href: ProyectoInterfazNatural.MVVM.Model.Voz.html#ProyectoInterfazNatural_MVVM_Model_Voz_Contenido
+  name: Contenido
+  nameWithType: Voz.Contenido
+  fullName: ProyectoInterfazNatural.MVVM.Model.Voz.Contenido
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

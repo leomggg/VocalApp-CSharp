@@ -1,0 +1,298 @@
+{
+  "source_base_path": "C:/Users/dam/source/repos/VocalApp-CSharp/Documentacion",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.AppShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.AppShell.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.AppShell",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.Model.Voz.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.Model.Voz.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.Model.Voz",
+      "Summary": "<p sourcefile=\"api/ProyectoInterfazNatural.MVVM.Model.Voz.yml\" sourcestartlinenumber=\"1\">Representa el modelo de datos para el texto a voz</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.Model.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.Model",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.View.PagPrinc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.View.PagPrinc.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.View.PagPrinc",
+      "Summary": "<p sourcefile=\"api/ProyectoInterfazNatural.MVVM.View.PagPrinc.yml\" sourcestartlinenumber=\"1\">Página principal de bienvenida de la aplicación</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.View.SegPag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.View.SegPag.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.View.SegPag",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.View.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.View.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.View",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.ViewModel.VozViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MVVM.ViewModel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MVVM.ViewModel.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MVVM.ViewModel",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MainActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MainActivity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MainActivity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MainApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MainApplication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MainApplication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MainPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MainPage.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MainPage",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.MauiProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.MauiProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.MauiProgram",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.Resource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural.Resource",
+      "Summary": "<p sourcefile=\"api/ProyectoInterfazNatural.Resource.yml\" sourcestartlinenumber=\"1\">Android Resource Designer class.\nExposes the Android Resource designer assembly into the project Namespace.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/ProyectoInterfazNatural.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ProyectoInterfazNatural.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "ProyectoInterfazNatural",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

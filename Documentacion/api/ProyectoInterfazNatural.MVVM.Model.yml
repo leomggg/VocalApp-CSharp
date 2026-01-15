@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: ProyectoInterfazNatural.MVVM.Model
+  commentId: N:ProyectoInterfazNatural.MVVM.Model
+  id: ProyectoInterfazNatural.MVVM.Model
+  children:
+  - ProyectoInterfazNatural.MVVM.Model.Voz
+  langs:
+  - csharp
+  - vb
+  name: ProyectoInterfazNatural.MVVM.Model
+  nameWithType: ProyectoInterfazNatural.MVVM.Model
+  fullName: ProyectoInterfazNatural.MVVM.Model
+  type: Namespace
+  assemblies:
+  - ProyectoInterfazNatural
+references:
+- uid: ProyectoInterfazNatural.MVVM.Model.Voz
+  commentId: T:ProyectoInterfazNatural.MVVM.Model.Voz
+  parent: ProyectoInterfazNatural.MVVM.Model
+  href: ProyectoInterfazNatural.MVVM.Model.Voz.html
+  name: Voz
+  nameWithType: Voz
+  fullName: ProyectoInterfazNatural.MVVM.Model.Voz
+- uid: ProyectoInterfazNatural.MVVM.Model
+  commentId: N:ProyectoInterfazNatural.MVVM.Model
+  href: ProyectoInterfazNatural.html
+  name: ProyectoInterfazNatural.MVVM.Model
+  nameWithType: ProyectoInterfazNatural.MVVM.Model
+  fullName: ProyectoInterfazNatural.MVVM.Model
+  spec.csharp:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.Model
+    name: Model
+    href: ProyectoInterfazNatural.MVVM.Model.html
+  spec.vb:
+  - uid: ProyectoInterfazNatural
+    name: ProyectoInterfazNatural
+    href: ProyectoInterfazNatural.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM
+    name: MVVM
+    href: ProyectoInterfazNatural.MVVM.html
+  - name: .
+  - uid: ProyectoInterfazNatural.MVVM.Model
+    name: Model
+    href: ProyectoInterfazNatural.MVVM.Model.html
